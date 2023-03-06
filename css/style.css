@@ -1,0 +1,22 @@
+body {
+	background-color: #f4f4f4;
+	padding: 0;
+	margin: 0;
+	background-image: url('https://cdn.discordapp.com/attachments/532214955626463234/561233312140754954/tenor.gif');
+	background-size: cover;
+
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+#about-us {
+	width:1920px;
+	height:50px;
+	background: #3e46a0;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+}
