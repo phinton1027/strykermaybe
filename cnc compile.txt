@@ -1,0 +1,15 @@
+Step 1:
+cd /tmp
+wget https://dl.google.com/go/go1.9.4.linux-amd64.tar.gz -q
+tar -xzf go1.9.4.linux-amd64.tar.gz
+mv go /usr/local
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/Projects/Proj1
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+go version
+go env
+cd ~/
+
+Step 2: export GOROOT=/usr/local/go; export GOPATH=$HOME/Projects/Proj1; export PATH=$GOPATH/bin:$GOROOT/bin:$PATH; go get github.com/go-sql-driver/mysql; go get github.com/mattn/go-shellwords
+
+Step 3: go build cnc/*.go
